@@ -33,6 +33,24 @@ section {
     background-color: #063647;
     padding: 0.2rem; /* Fixed from padding: 0,2rem; to use '.' for decimal */
 }
+.social-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line if necessary */
+    justify-content: center; /* Center aligns the items */
+}
+
+.social-container .column {
+    flex: 1 1 50%; /* Allows each column to take up 50% of the width on larger screens */
+    max-width: 50%; /* Ensures that columns do not exceed 50% */
+}
+
+@media screen and (max-width: 768px) {
+    .social-container .column {
+        flex: 1 1 100%; /* On smaller screens, each column takes full width */
+        max-width: 100%; /* Ensures columns take full width */
+    }
+}
+}
 
 a.nav-item {
     color: #dfdfdf;
