@@ -31,7 +31,6 @@ section {
 
 .section-4 {
     background-color: #063647;
-    padding: 0.2rem; /* Fixed from padding: 0,2rem; to use '.' for decimal */
 }
 .social-container {
     display: flex;
