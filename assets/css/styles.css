@@ -32,6 +32,8 @@ section{
 .section-4 {
 	background-color: #063647;
 	padding: 0.2rem;
+	padding-left: 30px;
+	padding-right: 80px
 }
 
 a.nav-item {
